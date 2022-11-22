@@ -1,0 +1,34 @@
+.contenedorpaquetes{
+    display: flex;
+    justify-content: space-around;
+    }
+    .cajapaquete{
+        width: 30%;
+        height: auto;
+        background-color: yellow;
+        border: solid 1px;
+        margin: 10px;
+    }
+    .tamimg{
+        width:100%;
+        height: auto;
+        
+    }
+    #MostrarP1{
+        display: none;
+    }
+    #MostrarP2{
+        display: none;
+    }
+    #MostrarP3{
+        display: none;
+    }
+    .ResumenP{
+        display: none;
+        background-color: blue;
+        opacity: 70%;
+    }
+
+    .resumen{
+        color: white;
+    }
