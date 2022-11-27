@@ -29,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="index.html">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="nuestrosTours.html">Tours</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tours">Tours</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -42,24 +42,25 @@
             <div class="container">
                 <div class="masthead-subheading">Pasen miren!</div>
                 <div class="masthead-heading text-uppercase">Descubran</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Contratanos</a>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#tours">Contratanos</a>
             </div>
         </header>
         
 
         <main>
 
-            <section class="page-section" id="services">
+            <section class="page-section" id="tours">
                 <div class="container">
                     <div class="text-center">
                         <h2 class="section-heading text-uppercase">Tours</h2>
-                        <h3 class="section-subheading text-muted">Los mejores recorridos</h3>
+                        <h3 class="section-subheading text-muted">Los mejores recorridos que se pueden hacer en la Boca, disfrutalos con los especialistas. </h3>
                     </div>
                 </div>
 
             <form action="#" method="get" id="formulariopersonal"></form>
-                <div class="contenedorpaquetes" >
-                
+                <div class="container" >
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12 col-lg-4">
                   <div class="cajapaquete">
                       <img src="img/quiquela.jpg"class=tamimg alt="Navegación por rio de la Plata">
                       <br>
@@ -69,13 +70,14 @@
                       <input type="checkbox" id="P1" >
                       <div id="MostrarP1"> 
                         <label for="cantP1"> Adultos:</label>
-                        <input type="number" id="cantP1" name="Personas" min="0"  max="1000" step="1" size="6px" value="0">
+                        <input  type="number" id="cantP1" name="Personas" min="0"  max="1000" step="1" size="6px" value="0">
                         <br>
                         <label for="cantP1"> Menores: (Menores de 18 años)</label>
-                        <input type="number" id="cantN1" name="Personas" min="0"  max="1000" step="1" size="60px" value="0">
+                        <input  type="number" id="cantN1" name="Personas" min="0"  max="1000" step="1" size="60px" value="0">
                         <br>
                         <label for="cantP1"> Adultos Mayores: (Mayor 65 años)</label>
-                        <input type="number" id="cantM1" name="Personas" min="0"  max="1000" step="1"size="6" value="0">
+                        <input  type="number" id="cantM1" name="Personas" min="0"  max="1000" step="1"size="6" value="0">
+                        <br>
                       </div> 
                       <div id="ResumenP1" class="ResumenP">
                         <div class="resumen" id="tourP1"> </div>
@@ -84,9 +86,10 @@
                         <div class="resumen" id="adultoMayorP1"> </div>
                         <div class="resumen" id="subTotalP1"> </div>
                       </div>
-                      
+                    </div>
+                </div>
+                    <div class="col-md-4 col-sm-12 col-lg-4">
         
-                 </div>
                   <div class="cajapaquete">
                     <img src="img/bocaboca.jpg"class=tamimg alt="tango">
                      <br>
@@ -95,14 +98,15 @@
                       </label>
                       <input type="checkbox" id="P2" > <br>
                       <div id="MostrarP2">
-                        <label for="cantP2"> Personas</label>
-                        <input type="number" id="cantP2" name="Personas" min="0"  max="1000" step="1">
+                        <label for="cantP2"> Adultos:</label>
+                        <input  type="number" id="cantP2" name="Personas" min="0"  max="1000" step="1"  value="0">
                         <br>
                         <label for="cantP2"> Menores: (Menores de 18 años)</label>
-                        <input type="number" id="cantN2" name="Personas" min="0"  max="1000" step="1">
+                        <input  type="number" id="cantN2" name="Personas" min="0"  max="1000" step="1"  value="0">
                         <br>
                         <label for="cantP2"> Adultos Mayores: (Mayor 65 años)</label>
-                        <input type="number" id="cantM2" name="Personas" min="0"  max="1000" step="1">
+                        <input  type="number" id="cantM2" name="Personas" min="0"  max="1000" step="1"  value="0">
+                        <br>
                       </div>
                       <div id="ResumenP2" class="ResumenP">
                         <div class="resumen" id="tourP2"> </div>
@@ -112,7 +116,8 @@
                         <div class="resumen" id="subTotalP2"> </div>
                       </div>
                 </div>  
-                <a href=""></a>
+            </div>
+            <div class="col-md-4 col-sm-12 col-lg-4">
                 <div class="cajapaquete">  
                     <img src="img/tango.JPG"class=tamimg alt="día de campo">
                    <br>
@@ -122,14 +127,15 @@
                     </label>
                     <input type="checkbox" id="P3" > <br>
                     <div id="MostrarP3">
-                        <label for="cantP3"> Personas</label>
-                        <input type="number" id="cantP3" name="Personas" min="0"  max="1000" step="1">
+                        <label for="cantP3"> Adultos:</label>
+                        <input type="number" id="cantP3" name="Personas" min="0"  max="1000" step="1"  value="0">
                         <br>
                         <label for="cantP3"> Menores: (Menores de 18 años)</label>
-                        <input type="number" id="cantN3" name="Personas" min="0"  max="1000" step="1">
+                        <input type="number" id="cantN3" name="Personas" min="0"  max="1000" step="1" value="0">
                         <br>
                         <label for="cantP3"> Adultos Mayores: (Mayor 65 años)</label>
-                        <input type="number" id="cantM3" name="Personas" min="0"  max="1000" step="1">
+                        <input type="number" id="cantM3" name="Personas" min="0"  max="1000" step="1" value="0">
+                        <br>
                     </div>
                     <div id="ResumenP3" class="ResumenP">
                       <div class="resumen" id="tourP3"> </div>
@@ -140,19 +146,22 @@
                     </div>
               </div>     
           </div>
+        </div>
+    </div>
             
-            <div class="text-center" id="descuento">
-        
-            </div>
-        
-            <div class="text-center" id="preciototal">
-         
+            <div  class="text-center" >
+                <dir id="descuento">
+                </dir>
+                <div class="precio" >
+                    <div  id="preciototal">
+                    </div> 
+                </div>
             </div>
             <br>
         </div>
         <div class="botonPadre">
         <div class="botonHijo">
-            <button type="submit"  class="btn btn-primary btn-xl text-uppercase" >Enviar </button>
+            <button type="submit"  class="btn btn-primary btn-xl text-uppercase" >Reservar </button>
         </div>
         </div>
          </form>
@@ -167,6 +176,10 @@
         </main>
         
 
+
+
+        
+           
 
 
 

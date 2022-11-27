@@ -1,9 +1,15 @@
-.contenedorpaquetes{
-    display: flex;
-    justify-content: space-around;
+
+    .contenedorpaquetes{
+        display: flex;
+        justify-content: space-around;
+        }
+
+    .precio{
+        font-size: x-large;
     }
+    
     .cajapaquete{
-        width: 30%;
+        
         height: auto;
         background-color: #ffc800;
         border: solid 1px;
