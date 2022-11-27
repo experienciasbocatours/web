@@ -5,7 +5,7 @@
     .cajapaquete{
         width: 30%;
         height: auto;
-        background-color: yellow;
+        background-color: #ffc800;
         border: solid 1px;
         margin: 10px;
     }
@@ -14,6 +14,15 @@
         height: auto;
         
     }
+
+.botonPadre{
+    text-align: center;
+}
+
+.botonHijo{
+    margin: 0px auto;
+}
+
     #MostrarP1{
         display: none;
     }

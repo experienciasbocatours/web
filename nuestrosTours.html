@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Tours</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/icono.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/icono.JPG" alt="Escudo republica de la boca" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nuestrosTours.html">Tours</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Pasen miren!</div>
+                <div class="masthead-heading text-uppercase">Descubran</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Contratanos</a>
+            </div>
+        </header>
+        
+
+        <main>
+
+            <section class="page-section" id="services">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="section-heading text-uppercase">Tours</h2>
+                        <h3 class="section-subheading text-muted">Los mejores recorridos</h3>
+                    </div>
+                </div>
+
+            <form action="#" method="get" id="formulariopersonal"></form>
+                <div class="contenedorpaquetes" >
+                
+                  <div class="cajapaquete">
+                      <img src="img/quiquela.jpg"class=tamimg alt="Navegación por rio de la Plata">
+                      <br>
+                      <label for="P1">
+                        Quinquela Martin Tour
+                      </label>
+                      <input type="checkbox" id="P1" >
+                      <div id="MostrarP1"> 
+                        <label for="cantP1"> Adultos:</label>
+                        <input type="number" id="cantP1" name="Personas" min="0"  max="1000" step="1" size="6px" value="0">
+                        <br>
+                        <label for="cantP1"> Menores: (Menores de 18 años)</label>
+                        <input type="number" id="cantN1" name="Personas" min="0"  max="1000" step="1" size="60px" value="0">
+                        <br>
+                        <label for="cantP1"> Adultos Mayores: (Mayor 65 años)</label>
+                        <input type="number" id="cantM1" name="Personas" min="0"  max="1000" step="1"size="6" value="0">
+                      </div> 
+                      <div id="ResumenP1" class="ResumenP">
+                        <div class="resumen" id="tourP1"> </div>
+                        <div class="resumen" id="adultoP1"> </div>
+                        <div class="resumen" id="menorP1"> </div>
+                        <div class="resumen" id="adultoMayorP1"> </div>
+                        <div class="resumen" id="subTotalP1"> </div>
+                      </div>
+                      
+        
+                 </div>
+                  <div class="cajapaquete">
+                    <img src="img/bocaboca.jpg"class=tamimg alt="tango">
+                     <br>
+                      <label for="P2">
+                        Boca Boca Tour
+                      </label>
+                      <input type="checkbox" id="P2" > <br>
+                      <div id="MostrarP2">
+                        <label for="cantP2"> Personas</label>
+                        <input type="number" id="cantP2" name="Personas" min="0"  max="1000" step="1">
+                        <br>
+                        <label for="cantP2"> Menores: (Menores de 18 años)</label>
+                        <input type="number" id="cantN2" name="Personas" min="0"  max="1000" step="1">
+                        <br>
+                        <label for="cantP2"> Adultos Mayores: (Mayor 65 años)</label>
+                        <input type="number" id="cantM2" name="Personas" min="0"  max="1000" step="1">
+                      </div>
+                      <div id="ResumenP2" class="ResumenP">
+                        <div class="resumen" id="tourP2"> </div>
+                        <div class="resumen" id="adultoP2"> </div>
+                        <div class="resumen" id="menorP2"> </div>
+                        <div class="resumen" id="adultoMayorP2"> </div>
+                        <div class="resumen" id="subTotalP2"> </div>
+                      </div>
+                </div>  
+                <a href=""></a>
+                <div class="cajapaquete">  
+                    <img src="img/tango.JPG"class=tamimg alt="día de campo">
+                   <br>
+                  
+                    <label for="P3">
+                      Tango Tour
+                    </label>
+                    <input type="checkbox" id="P3" > <br>
+                    <div id="MostrarP3">
+                        <label for="cantP3"> Personas</label>
+                        <input type="number" id="cantP3" name="Personas" min="0"  max="1000" step="1">
+                        <br>
+                        <label for="cantP3"> Menores: (Menores de 18 años)</label>
+                        <input type="number" id="cantN3" name="Personas" min="0"  max="1000" step="1">
+                        <br>
+                        <label for="cantP3"> Adultos Mayores: (Mayor 65 años)</label>
+                        <input type="number" id="cantM3" name="Personas" min="0"  max="1000" step="1">
+                    </div>
+                    <div id="ResumenP3" class="ResumenP">
+                      <div class="resumen" id="tourP3"> </div>
+                      <div class="resumen" id="adultoP3"> </div>
+                      <div class="resumen" id="menorP3"> </div>
+                      <div class="resumen" id="adultoMayorP3"> </div>
+                      <div class="resumen" id="subTotalP3"> </div>
+                    </div>
+              </div>     
+          </div>
+            
+            <div class="text-center" id="descuento">
+        
+            </div>
+        
+            <div class="text-center" id="preciototal">
+         
+            </div>
+            <br>
+        </div>
+        <div class="botonPadre">
+        <div class="botonHijo">
+            <button type="submit"  class="btn btn-primary btn-xl text-uppercase" >Enviar </button>
+        </div>
+        </div>
+         </form>
+
+        
+
+
+        </div>
+        </section>
+
+        
+        </main>
+        
+
+
+
+
+        
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Experiencias Boca Tous 2022</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="js/scripts.js"></script>
+
+        <script src="scrip.js"> </script>
+        
+        
+    </body>
+</html>
