@@ -1,0 +1,51 @@
+
+    .contenedorpaquetes{
+        display: flex;
+        justify-content: space-around;
+        }
+
+    .precio{
+        font-size: x-large;
+    }
+    
+    .cajapaquete{
+        
+        height: auto;
+        background-color: #ffc800;
+        border: solid 1px;
+        margin: 10px;
+    }
+    .tamimg{
+        width:100%;
+        height: auto;
+        
+    }
+
+.botonPadre{
+    text-align: center;
+}
+
+.botonHijo{
+    margin: 0px auto;
+}
+
+    #MostrarP1{
+        display: none;
+    }
+    #MostrarP2{
+        display: none;
+    }
+    #MostrarP3{
+        display: none;
+    }
+    .ResumenP{
+        display: none;
+        background-color: blue;
+        opacity: 70%;
+    }
+
+    .resumen{
+        color: white;
+    }
+
+
