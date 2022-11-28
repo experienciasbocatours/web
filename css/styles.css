@@ -3030,7 +3030,7 @@ textarea.form-control-lg {
 }
 
 .btn-primary {
-  color:blue;
+  color:#000;
   background-color: #ffc800;
   border-color: #ffc800;
 }
@@ -11363,7 +11363,7 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.25rem;
-  color: blue;
+  color: #000;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
